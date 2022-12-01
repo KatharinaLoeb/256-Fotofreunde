@@ -47,7 +47,6 @@ a {
 }
 a:active,
 a:hover {
-  outline: 0;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -58,6 +57,7 @@ strong {
 }
 dfn {
   font-style: italic;
+ 
 }
 h1 {
   margin: .67em 0;
@@ -244,6 +244,7 @@ th {
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
+    align="center"
   }
   .label {
     border: 1px solid #000;
